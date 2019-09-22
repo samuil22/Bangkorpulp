@@ -83,7 +83,7 @@
 		        <a class="nav-link" href="#second_slider_gallery">GALLERY</a>
 		      </li> 
 		      <li class="nav-item">
-		        <a class="nav-link" href="#team">PRODUCTS</a>
+		        <a class="nav-link" href="#product">PRODUCTS</a>
 		      </li>  
 		      
 		     
@@ -238,38 +238,51 @@
     </section>
 <!-- mission area end -->
 <!-- product area start -->
-
-<h2>Filter DIV Elements</h2>
+<section id="product">
+<h2 class="product_h2">OUR PRODUCTS</h2>
 
 <div id="myBtnContainer">
 
   
   <div class="row">
-  	<div class="col-md-3 btnr pro_img"  onclick="filterSelection('cars')"><img  class="img-responsive product_img" src="img/product/paper.jpg"></div>
-  	<div class="col-md-3 btnr pro_img"  onclick="filterSelection('animals')"><img  class="img-responsive product_img" src="img/product/PlayingCard.jpg"></div>
-  	<div class="col-md-3 btnr pro_img"  onclick="filterSelection('fruits')"><img  class="img-responsive product_img" src="img/product/foldingbox.png"></div>
-  	<div class="col-md-3 btnr pro_img"  onclick="filterSelection('all')"><img  class="img-responsive product_img" src="img/product/red.jpg"></div>
+  	<div class="col-md-3 btnr pro_img"  onclick="filterSelection('paper')">
+  		<div class="after_text"><span class="text_fil">COMMERCIAL PRINTING</span></div>
+  		<img  class="img-responsive product_img" src="img/product/paper.jpg">
+  	</div>
+  	<div class="col-md-3 btnr pro_img"  onclick="filterSelection('cards')">
+  		<div class="after_text"><span class="text_fil">PLAYING CARD</span></div>
+  		<img  class="img-responsive product_img" src="img/product/PlayingCard.jpg">
+  	</div>
+  	<div class="col-md-3 btnr pro_img"  onclick="filterSelection('boxs')">
+  		<div class="after_text"><span class="text_fil">FOLDING BOX BOARD</span></div>
+  		<img  class="img-responsive product_img" src="img/product/foldingbox.png">
+  	</div>
+  	<div class="col-md-3 btnr pro_img"  onclick="filterSelection('all')">
+  		<div class="after_text"><span class="text_fil">VIEW ALL</span></div>
+  		<img  class="img-responsive product_img" src="img/product/red.jpg">
+  	</div>
   </div>
 </div>
 
 <div class="container">
-  <div class="filterDiv cars">BMW</div>
-  <div class="filterDiv colors fruits">Orange</div>
-  <div class="filterDiv cars">Volvo</div>
-  <div class="filterDiv colors">Red</div>
-  <div class="filterDiv cars animals">Mustang</div>
-  <div class="filterDiv colors">Blue</div>
-  <div class="filterDiv animals">Cat</div>
-  <div class="filterDiv animals">Dog</div>
-  <div class="filterDiv fruits">Melon</div>
-  <div class="filterDiv fruits animals">Kiwi</div>
-  <div class="filterDiv fruits">Banana</div>
-  <div class="filterDiv fruits">Lemon</div>
-  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv paper"><img src="img/product/cheiftain-289x300.png"></div>
+  <div class="filterDiv paper"><img src="img/product/kinglogo.jpg"></div>
+  <div class="filterDiv paper"><img src="img/product/Luxstar.png"></div>
+  <div class="filterDiv boxs"><img src="img/product/navia.jpg"></div>
+  <div class="filterDiv paper cards"><img src="img/product/Ningbo_Fold_ProductImg.png"></div>
+  <div class="filterDiv boxs"><img src="img/product/Ningbo_Poker.png"></div>
+  <div class="filterDiv cards"><img src="img/product/Proxima_logo2.png"></div>
+  <div class="filterDiv cards"><img src="img/product/Zenith_logo.png"></div>
+  <div class="filterDiv boxs"><img src="img/product/Ningbo_Poker.png"></div>
+  <div class="filterDiv boxs cards"><img src="img/product/kinglogo.jpg"></div>
+  <div class="filterDiv boxs"><img src="img/product/Zenith_logo.png"></div>
+  <div class="filterDiv boxs"><img src="img/product/cheiftain-289x300.png"></div>
+  <div class="filterDiv cards"><img src="img/product/Ningbo_Poker.png"></div>
+  <div class="filterDiv boxs"><img src="img/product/Proxima_logo2.png"></div>
 </div>
 
 
-
+</section>
 <!-- product area end-->
 <!-- 2nd slider area start -->
 <section id="second_slider_gallery"  class="second_slider_class">     
