@@ -1082,16 +1082,59 @@ input[type=text] {
 .foot_mid{
   text-align: center;
   margin: 50px 0;
-  color:#fff;
+  color:#ccc;
   border-right: 1px solid#fff;
 }
 .foot_right{
   text-align: center;
   margin: 50px 0;
-  color: #fff;
+  color: #ccc;
 }
 .foot_right p {
   line-height: 10px;
   margin-top: 26px;
 }
+
 /*footer area end*/
+@media only screen and (max-width: 600px) {
+  body {
+    
+  }
+
+  .menu_middle {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#navbar .active {
+    border-bottom: none;
+}
+#navbar a{
+  font-size: 10px;
+  float: none;
+}
+.social {
+  display: none;
+}
+.about_text1 {
+  text-align: center;
+}
+.stats_h1 {
+  width: 40%;
+}
+.stats_p {
+  line-height: 31px;
+}
+.filterDiv{
+  margin: 5px 25%;
+}
+#Maps {
+  display: none;
+}
+.btn.btn-danger.v_t_btn{
+  padding: 8px 31px;
+}
+.foot_left img {
+    height: 145px;
+}
+}
