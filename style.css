@@ -17,6 +17,10 @@ body {
   background-color: #f1f1f1;
   text-align: center;
 }
+iframe{
+  height: 100%;
+  width: 100%;
+}
 /*navbar area start*/
 .navbar{
   padding: 0px !important;
@@ -44,8 +48,8 @@ body {
 }
 .menu_middle{
   position: absolute;
-left: 50%;
-transform: translate(-50%);
+  left: 50%;
+  transform: translate(-50%);
 }
 #navbar a:hover {
   /*background-color: #ddd;*/
@@ -100,7 +104,7 @@ height: 50px;
 /*top slider start*/
 
 .heading-box h2{ width:100%; color: red; }
-.text-box {
+/*.text-box {
   position: absolute;
   top: 50%;
   left: 15%;
@@ -108,6 +112,15 @@ height: 50px;
   color: #fff;
   text-align: center;
   transform: translateY(-50%);
+}*/
+.text-box{
+  position: absolute;
+  top: 0;
+  color:#fff;
+  text-align: center;
+  background:#0000005e;
+  height: 100%;
+  width: 100%;
 }
 .respon{
   width: 100%;
@@ -264,8 +277,8 @@ height: 50px;
   float: left;
   background-color: #fff;
   color: #ffffff;
-  width: 180px;
-  height: 140px;
+  width: 222px;
+  height: 160px;
   text-align: center;
   margin: 20px;
   display: none;
@@ -273,6 +286,11 @@ height: 50px;
 .filterDiv img{
   height: 100%;
   width: 100%;
+  transition: transform 0.5s;
+}
+.filterDiv img:hover{
+ transform: scale(1.1);
+ 
 }
 .after_text {
   height: 100%;
@@ -775,8 +793,8 @@ text-shadow: 2px 3px #3e2424f2;
   height: 100vh;
 }
 .pic {
-  width: 300px;
-  height: 215px;
+  width: 260px;
+  height: 180px;
 }
 .photo1{
   background: url(img/southafricaflag.png) ;
@@ -804,7 +822,7 @@ text-shadow: 2px 3px #3e2424f2;
 
 .text{
   width: 100%;
-  height: 217px;
+  height: 182px;
   background:#000;
   opacity: 0;
   right: 0px;
@@ -1129,7 +1147,7 @@ input[type=text] {
   line-height: 31px;
 }
 .filterDiv{
-  margin: 5px 25%;
+  margin: 5px 17%;
 }
 #Maps {
   display: none;
